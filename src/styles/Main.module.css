@@ -1,0 +1,27 @@
+.mainContainer{
+    background-color: whitesmoke;
+    font-size:16px;
+    height:80vh;
+    width:20vw;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /* // */
+    border-radius: 10px;
+    padding:40px;
+    /* // */
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+.submitButton{
+    background:rgba(255, 0, 63 ,0.5);
+    color:white;
+}
+.submitButton:hover{
+    background: rgba(255, 0, 63);
+    transition: 1s;
+}
